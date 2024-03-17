@@ -1,12 +1,8 @@
-/*Configurações Globais*/
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/*Root do Site*/
 
 :root {
     --text-color: white;
@@ -19,8 +15,6 @@
     --switch-border-color: rgba(255, 255, 255, 0.5);
 }
 
-/*Modo Claro*/
-
 .light {
     --text-color: black;
     --bg-url: url(assets/Background-mobile-light.png);
@@ -31,8 +25,6 @@
     --switch-bg-url: url(assets/sun.svg);
     --switch-border-color: rgba(0, 0, 0, 0.5);
 }
-
-/*Corpo do Site*/
 
 body {
     background: var(--bg-url) no-repeat top center/cover;
@@ -51,8 +43,6 @@ body * {
     padding: 0 24px;
 }
 
-/*Perfil*/
-
 #profile {
     text-align: center;
     padding: 24px;
@@ -68,8 +58,6 @@ body * {
     font-weight: 500;
     line-height: 24px;
 }
-
-/*Botão de alterar Tema*/
 
 #switch {
     position: relative;
@@ -110,8 +98,6 @@ body * {
     border-radius: 9999px;
 }
 
-/*Links*/
-
 ul {
     list-style: none;
     display: flex;
@@ -140,8 +126,6 @@ ul li a:hover {
     border: 1px solid var(--text-color);
 }
 
-/*Links das Redes Sociais*/
-
 #social-links {
     display: flex;
     justify-content: center;
@@ -162,8 +146,6 @@ ul li a:hover {
 #social-links a:hover {
     background: var(--highlight-color);
 }
-
-/*Cabeçalho*/
 
 footer {
     padding: 24px 0;
